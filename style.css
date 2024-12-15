@@ -160,3 +160,49 @@ a{
     text-decoration: none;
     color: black;
 }
+.block{
+    margin-top: 200px;
+}
+.row {
+    display: flex;  /* Flexbox로 layout 설정 */
+    flex-wrap: wrap;  /* 줄 바꿈 가능하도록 설정 */
+}
+.row .six.columns {
+    display: inline-block;  /* inline-block 적용 */
+    width: 47%; /* 두 개 요소를 한 줄에 나열하기 위한 설정 */
+    margin-right: 4%; /* 간격 설정 */
+}
+
+.row .six.columns:last-child {
+    margin-right: 0; /* 마지막 요소 오른쪽 여백 제거 */
+}
+
+.row label,
+.row input {
+    display: block; /* 기본적으로 block 요소로 설정 */
+    width: 100%; /* 요소들이 가로폭을 모두 채우도록 설정 */
+}
+
+.row textarea{
+    display: block;
+    width: 98%;
+}
+
+.button-primary {
+    display: inline-block;
+    margin-top: 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #f9f6ef;
+}
+label{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.u-full-width{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}

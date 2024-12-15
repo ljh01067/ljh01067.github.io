@@ -169,30 +169,30 @@
 </section>
 <section id="portfolio">
     <h2 style="margin-left: 100px; margin-top: 100px;">My Projects</h2>
-    <div style="display: flex; justify-content: space-around; gap: 10px; margin-top: 400px;">
+    <div style="display: flex; justify-content: space-around; gap: 10px; margin-top: 400px;a">
         <a href="https://github.com/ljh01067/mypro" target="_blank" style="flex: 1; padding: 10px; text-align: center;">
-            <img src="https://velog.velcdn.com/images/leejh01067/post/098c3cbc-a5d1-4c8c-bdc9-13d8e796f339/image.PNG" alt="PriceCheck" style="height: 60px; width: auto;">
+            <img src="https://velog.velcdn.com/images/leejh01067/post/07615e80-5ebc-4e2f-bae0-ee4a126c1c7d/image.png" alt="PriceCheck" style="height: 210px; width: 420px;">
             <div>
                 오프라인 마트 간의 가격비교 사이트<br>
                 GitHub 바로가기 (링크)
             </div>
         </a>
         <a href="https://github.com/TailsRoute/TailsRoute_PJ" target="_blank" style="flex: 1; padding: 10px; text-align: center;">
-            <div>TailsRoute</div>
+            <img src="https://velog.velcdn.com/images/leejh01067/post/81888a4e-81e9-4f77-a94f-62f7748a7f52/image.png" alt="TailsRoute" style="height: 210px; width: 420px;">
             <div>
                 반려견과 함께하는 행복한 생활을 위한 통합 플랫폼<br>
                 GitHub 바로가기 (링크)<br>
             </div>
         </a>
         <a href="https://github.com/ljh01067/24_09_todoapp" target="_blank" style="flex: 1; padding: 10px; text-align: center;">
-            <div>Todo App</div>
+            <img src="https://velog.velcdn.com/images/leejh01067/post/1485c420-67da-4c69-bc7f-eb08134b964b/image.png" alt="TodoApp" style="height: 210px; width: 420px;">
             <div>
                 할 일을 관리하는 일정 앱<br>
                 GitHub 바로가기 (링크)<br>
             </div>
         </a>
         <a href="https://github.com/ljh01067/ljh01067.github.io" target="_blank" style="flex: 1; padding: 10px; text-align: center;">
-            <div>My Portfolio</div>
+            <img src="https://velog.velcdn.com/images/leejh01067/post/a8df092d-e551-4861-aa3d-0035f4407557/image.png" alt="portfolio" style="height: 210px; width: 420px;">
             <div>
                 이준혁의 웹 포트폴리오<br>
                 GitHub 바로가기 (링크)<br>
@@ -201,37 +201,39 @@
     </div>
 </section>
 <section id="contact">
+    <h2 style="margin-left: 100px; margin-top: 100px;">
+        Contact</h2>
     <div class="container">
-        <br><br><br><br>
-        <h1>Contact</h1>
         <div class="block"></div>
-        <form class="gform" method="POST" data-email="leejh01067@gmail.com"
-              action="https://script.google.com/macros/s/AKfycby_4U_XpOPD5C9niEMVRRbXrWuT76QEBMlWBA7OgWdtc97cN5Gh_FWJwqp8U-5caunL/exec">
+        <form id="contactForm">
             <div class="row">
                 <div class="six columns">
-                    <label for="exampleRecipientInput">Name</label> <input
-                        class="u-full-width" type="text" autocomplete="off"
-                        placeholder="이름을 입력해주세요" name="name" />
+                    <label for="exampleRecipientInput">Name</label>
+                    <input class="u-full-width" type="text" autocomplete="off"
+                           placeholder="이름을 입력해주세요" name="name" required />
                 </div>
                 <div class="six columns">
-                    <label for="exampleRecipientInput">Phone</label> <input
-                        class="u-full-width" type="text" autocomplete="off"
-                        placeholder="전화번호를 입력해주세요" name="contact" />
+                    <label for="exampleRecipientInput">Phone</label>
+                    <input class="u-full-width" type="text" autocomplete="off"
+                           placeholder="전화번호를 입력해주세요" name="contact" required />
                 </div>
+            </div>
+            <div class="row">
                 <div class="six columns" style="margin-left: 0%;">
-                    <label for="exampleEmailInput">Email</label> <input
-                        class="u-full-width" type="email" autocomplete="off"
-                        placeholder="id@email.com" name="email" />
+                    <label for="exampleEmailInput">Email</label>
+                    <input class="u-full-width" type="email" autocomplete="off"
+                           placeholder="id@email.com" name="email" required />
                 </div>
             </div>
             <div class="row">
                 <label for="exampleMessage">Message</label>
-                <textarea class="u-full-width" placeholder="내용을 입력해주세요" name="body"></textarea>
-                <input class="button-primary" type="submit" value="Submit">
+                <textarea class="u-full-width" style="height: 400px;" placeholder="내용을 입력해주세요" name="body" required></textarea>
+                <button type="submit" class="button-primary">Submit</button>
             </div>
         </form>
     </div>
 </section>
+
 <script src="script.js"></script>
 </body>
 </html>
