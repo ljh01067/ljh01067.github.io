@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ljh's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        // 오른쪽 클릭 차단
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault();
+        });
+
+        // 텍스트 드래그 방지
+        document.addEventListener('selectstart', function (event) {
+            event.preventDefault();
+        });
+    </script>
 </head>
 <body>
 <header id="header">
