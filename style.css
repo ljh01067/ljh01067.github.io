@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,body {
     margin: 0;
     padding: 0;
@@ -5,12 +12,11 @@ html,body {
     height: 100vh;
     text-align: center;
     align-items: center;
-    font-family: Arial, sans-serif;
     width: 100%;
     scroll-behavior: smooth;
     color: #f9f6ef;
+    font-family: 'yg-jalnan', sans-serif;
 }
-
 @keyframes diagonalTransition {
     0% {
         background-position: 0% 0%; /* 왼쪽 위 */
@@ -211,4 +217,7 @@ label{
 }
 img{
     border-radius: 10px;
+}
+input:focus, textarea:focus {
+    outline: none;
 }
