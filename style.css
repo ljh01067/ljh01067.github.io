@@ -206,3 +206,9 @@ label{
     border: none;
     border-radius: 5px;
 }
+#contactForm{
+    margin-left: 2%;
+}
+img{
+    border-radius: 10px;
+}
