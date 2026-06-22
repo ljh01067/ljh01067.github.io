@@ -97,7 +97,7 @@ div{
     padding-top: 23px;
 }
 .profile-image{
-    max-width: 430px; /* 이미지 크기 제한 */
+    max-width: 465px; /* 이미지 크기 제한 */
     height: auto; /* 비율 유지 */
     border-radius: 10px; /* 선택적: 둥근 테두리 */
 }
